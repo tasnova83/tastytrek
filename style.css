@@ -157,7 +157,7 @@ nav ul li a {
 }
 
 .hero-image img {
-    width: 380px; /* ছবির আকার ঠিক রাখা */
+    width: 400px; /* ছবির আকার ঠিক রাখা */
     height: auto;
     display: block;
 }
@@ -165,8 +165,8 @@ nav ul li a {
 /* Text bar below the image */
 .info-box {
     position: absolute;
-    right: 10%; /* Adjust to match the image */
-    bottom: -20px; /* নিচের দিকে নিয়ে যাবে */
+    right: 5%; /* ছবির নিচে থাকবে */
+    bottom: -25px; /* নিচের দিকে নিয়ে যাবে */
     background-color: #f7931a;
     padding: 10px 20px;
     border-radius: 10px;
