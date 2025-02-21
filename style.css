@@ -1,0 +1,231 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #fff;
+    padding: 15px 50px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-box {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cart-btn, .signin-btn, .login-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signin-btn {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.login-btn {
+    background-color: #ffcc00;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* টেক্সট বামে, ইমেজ ডানে */
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 40px auto;
+    width: 90%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.text-content {
+    max-width: 45%; /* টেক্সটকে ছোট করে ফেলা */
+    text-align: left;
+}
+
+.text-content h1 {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.text-content p {
+    font-size: 16px;
+    color: #777;
+}
+
+.order-details {
+    margin-top: 20px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f1f1f1;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: fit-content;
+}
+
+.quantity button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.buy-now {
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.lock-icon {
+    font-size: 14px;
+}
+
+/* Hero Image Section */
+.hero-image {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end; /* ছবিটা একদম ডানপাশে পাঠাবে */
+    align-items: center;
+    padding-right: 40px; /* ডানপাশে স্পেস দিবে */
+    position: relative;
+}
+
+.hero-image img {
+    width: 380px; /* ছবির আকার ঠিক রাখা */
+    height: auto;
+    display: block;
+}
+
+/* Text bar below the image */
+.info-box {
+    position: absolute;
+    right: 10%; /* Adjust to match the image */
+    bottom: -20px; /* নিচের দিকে নিয়ে যাবে */
+    background-color: #f7931a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* Menu Items */
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px auto;
+    width: 90%;
+}
+
+.item {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 130px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    position: relative;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.item p {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.item span {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 50px;
+}
