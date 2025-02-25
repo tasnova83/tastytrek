@@ -10,24 +10,23 @@ body {
     padding: 0;
     }
 
+/* Header Styling */
 header {
-    background-color: #ffffff;
-    color: rgb(255, 115, 0);
-    text-align: center;
-    padding: 15px 0;
+    background: #ffffff;
+    padding: 15px 10%;
 }
+
+/* Navbar Container */
 .container {
-    width: 90%;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+
+.logo img {
+    height: 50px; /* লোগোর আকার ঠিক রাখা */
+    width: auto;
 }
 
 nav ul {
@@ -44,15 +43,44 @@ nav ul li a {
     color: #ff6600;
     font-size: 16px;
 }
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: rgb(0, 0, 0); /* এখানে আপনি আপনার পছন্দমতো কালার দিতে পারেন */
+}
 
 .contact-btn {
     background: #ff6600;
-    color: #ffffff;
-    padding: 8px 15px;
+    color: #fff;
+    padding: 10px 15px;
     text-decoration: none;
-    border-radius: 20px;
     font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
+
+.contact-btn:hover {
+    background: rgb(255, 255, 255);
+    color: #ff6600;
+}
+
 /* Hero Section */
 .hero {
     display: flex;
@@ -187,4 +215,97 @@ nav ul li a {
 .feature-item p {
     font-size: 16px;
     color: #555;
+}
+/* Customer Reviews Section */
+.reviews {
+    text-align: center;
+    padding: 50px 10%;
+    background: #ffffff;
+}
+
+.reviews h2 {
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    background: #fff3e0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.review-card img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.review-card h3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.rating {
+    font-size: 20px;
+    color: #ffcc00;
+    margin-top: 10px;
+}
+/* Footer Section */
+footer {
+    background: #ff6600;
+    color: white;
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+}
+
+.footer-contact, .footer-social {
+    margin-top: 10px;
+}
+
+.footer-contact h3, .footer-social h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-contact p {
+    font-size: 14px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-social img {
+    width: 30px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
 }
