@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    }
+
+header {
+    background-color: #ffffff;
+    color: rgb(255, 115, 0);
+    text-align: center;
+    padding: 15px 0;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff6600;
+    font-size: 16px;
+}
+
+.contact-btn {
+    background: #ff6600;
+    color: #ffffff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background: #ffffff;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    color: #ff6600;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.hero-btn {
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+/* Popular Food Section */
+.popular-food {
+    text-align: center;
+    padding: 50px 10%;
+    background: #fff;
+}
+
+.popular-food h2 {
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.food-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.food-card {
+    background: #ffefd5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.food-card img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.food-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.food-card p {
+    font-size: 18px;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.food-card .order-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #ff6600;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 50px 10%;
+    background: #fff3e0;
+}
+
+.features h2 {
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.feature-item img {
+    width: 80px;
+}
+
+.feature-item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.feature-item p {
+    font-size: 16px;
+    color: #555;
+}
